@@ -51,6 +51,13 @@ a:hover {
 	background-color: #4AAAA5;
 }
 
+#me {
+	width: 25%;
+	height: 25%;
+	border-radius: 100%;
+	box-shadow: 0px 3px 5px #4AAAA5;
+}
+
 .container {
 	width: 960px;
 	display: flex;
@@ -77,12 +84,37 @@ a:hover {
 	padding: 30px 0;
 }
 
+.innards {
+	display: flex;
+	margin: 20px 40px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.photo-text {
+	padding: 0 20px 0 30px;
+}
+
+.text {
+	margin: 20px 40px;
+}
+
+.line-space {
+	line-height: 1.3em;
+}
+
 .aside {
 	width: 270px;
-	max-height: 250px;
+	max-height: 200px;
 	background: #FFF;
 	margin: 30px 0;
 	border: 2px solid #CCC;
+}
+
+.links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .aside-header {
