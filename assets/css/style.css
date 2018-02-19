@@ -69,7 +69,7 @@ a:hover {
 }
 
 .content {
-	width: 650px;
+	width: 60%;
 	background: #FFF;
 	margin: 30px 0;
 	border: 2px solid #CCC;
@@ -104,7 +104,7 @@ a:hover {
 }
 
 .aside {
-	width: 270px;
+	width: 35%;
 	max-height: 200px;
 	background: #FFF;
 	margin: 30px 0;
