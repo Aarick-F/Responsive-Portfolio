@@ -28,7 +28,7 @@ section {
 footer {
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	background: #666;
 	border-top: 5px solid #4AAAA5;
 }
@@ -55,7 +55,51 @@ a:hover {
 	width: 960px;
 	display: flex;
 	justify-content: space-between;
+	/*align-items: center;*/
+}
+
+.verticle-center {
 	align-items: center;
+}
+
+.content {
+	width: 650px;
+	background: #FFF;
+	margin: 30px 0;
+	border: 2px solid #CCC;
+}
+
+.content-header {
+	color: #4AAAA5;
+	font-size: 28px;
+	font-weight: bold;
+	border-bottom: 5px solid #CCC;
+	margin: 20px 40px;
+	padding: 30px 0;
+}
+
+.aside {
+	width: 270px;
+	max-height: 250px;
+	background: #FFF;
+	margin: 30px 0;
+	border: 2px solid #CCC;
+}
+
+.aside-header {
+	color: #4AAAA5;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 5px solid #CCC;
+	margin: 20px 40px;
+	padding: 20px 0;
+}
+
+.footer-content {
+	color: #CCC;
+	font-size: 16px;
+	padding: 30px 20px 30px 0;
 }
 
 ul {
