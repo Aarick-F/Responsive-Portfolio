@@ -33,6 +33,16 @@ footer {
 	border-top: 5px solid #4AAAA5;
 }
 
+a, a:visited, a:active {
+	color: #777;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #4AAAA5;
+	transition: 0.2s;
+}
+
 #name {
 	padding: 20px 15px;
 	font-size: 26px;
